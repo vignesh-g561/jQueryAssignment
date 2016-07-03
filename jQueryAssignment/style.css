@@ -1,0 +1,24 @@
+.header{
+  text-align: center;
+}
+.row #jPart{
+  margin-top: 20px;
+}
+#jPart{
+  width: 350px;
+  height: 500px;
+  float: left;
+  overflow: scroll;
+}
+#bPart{
+  margin-top: 50px;
+  width: 70%;
+  float: left;
+}
+.axis .label {
+    font-size: 15pt;
+  }
+  .x.axis{
+      font-size: 8pt;
+      font-weight: bold;
+    }

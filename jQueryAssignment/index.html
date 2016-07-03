@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>jQuery Assignment</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head> 
+<body>
+  <div class="container">
+    <!-- header part starts -->
+    <div class="header row">
+      <h2>jQuery Assignment</h2>
+    </div>
+    <!-- header part ends -->
+    <div class="row">
+      <!-- Table  part starts -->
+      <div id="jPart">
+        <table class="table table-striped" id="jsonTable" border="1" align="center">
+          <tr>
+            <th>Country Name</th>
+            <th>Population</th>
+            <th>Action</th>
+          </tr>
+        </table>
+      </div>
+      <!-- Table part ends -->
+      <!-- Graph part starts -->
+      <div id="bPart">
+        <script src="D3Graph.js" ></script>
+      </div>
+      <!-- Graph part ends -->
+    </div>
+    <!-- Add records part starts -->
+    <div id="adddata" class="row">
+      <table class="table table-bordered">
+        <tr>
+          <td><input type="text" id="cName" placeholder="Country Name" width="500"class="form-control"></input></td>
+          <td><input type="text" id="pop2013" placeholder="Population" class="form-control"></input></td>
+          <td><button id="addbtn" class="btn btn-success">Add</button></td>
+        </tr>
+      </table>
+    </div>
+    <!-- Add records part ends -->
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <!-- custom jQuery file -->
+  <script src="GDPjs.js"></script>
+</body>
+</html>
